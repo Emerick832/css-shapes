@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fundo {
+  position: relative;
+  box-sizing: border-box;
+  width: 600px;
+  height: 500px;
+  background: #ffffff98;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chao {
+  position: absolute;
+  width: 400px;
+  height: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: rgb(148, 145, 145);
+  transform: translateY(245px);
+}
+
+.casa {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  background: rgb(241, 167, 69);
+  transform: translateY(166px);
+}
+
+.porta {
+  position: absolute;
+  width: 60px;
+  height: 70px;
+  background: rgba(99, 52, 14, 0.877);
+  transform: translateY(206px);
+}
+
+.contorno-porta{
+    position: absolute;
+    border-bottom: transparent;
+    width: 80px;
+    height: 90px;
+    border: 3px solid rgba(99, 52, 14, 0.877);
+    transform: translateY(193px);
+}
+
+.janela-1 {
+  position: absolute;
+  width: 50px;
+  height: 45px;
+  background:salmon;
+  transform: translate(-95px, 185px);
+}
+
+.janela-2 {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    background:salmon;
+    transform: translate(95px, 185px);
+  }

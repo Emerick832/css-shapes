@@ -1,0 +1,89 @@
+.center {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 300px;
+  background: #191919;
+}
+.bat {
+  width: 240px;
+  height: 85px;
+  margin-bottom: 20px;
+  background: #f2ad43;
+}
+.wl {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 24px;
+  top: 98px;
+  background: #191919;
+}
+.wr {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  right: 24px;
+  top: 98px;
+  background: #191919;
+}
+.b1 {
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  border-radius: 50%;
+  left: 80px;
+  top: 160px;
+  background: #191919;
+}
+.b2 {
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  border-radius: 50%;
+  right: 80px;
+  top: 160px;
+  background: #191919;
+}
+
+.s {
+  position: absolute;
+  width: 75px;
+  height: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 30px;
+  background: #191919;
+}
+.h {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 110px;
+  background: #f2ad43;
+}
+.le {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 105px;
+  left: 205px;
+  background: #f2ad43;
+}
+.re {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 105px;
+  right: 205px;
+  background: #f2ad43;
+}

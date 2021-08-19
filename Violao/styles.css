@@ -1,0 +1,71 @@
+.violao {
+  box-sizing: border-box;
+  background-color: #f3ac3c;
+  width: 400px;
+  height: 300px;
+  z-index: -5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-ma {
+  margin-top: 100px;
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  background: #998235;
+  transform: translateX(30px);
+}
+.c-me {
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+  background: #998235;
+  border-radius: 100px;
+  transform: translate(110px, -110px);
+}
+.c-i {
+  width: 40px;
+  height: 40px;
+  background: #1a4341;
+  border: 5px solid #f3ac3c;
+  border-radius: 100px;
+  transform: translate(135px, -185px);
+}
+
+.r {
+  width: 100px;
+  height: 20px;
+  background: #1a4341;
+  z-index: -4;
+  transform: translate(209px, -220px);
+}
+.p {
+  width: 40px;
+  height: 30px;
+  border-radius: 10px;
+  background: #998235;
+  transform: translate(290px, -245px);
+}
+.p-i {
+  width: 20px;
+  height: 4px;
+  border-radius: 5px;
+  background: #1a4341;
+  transform: translate(300px, -268px);
+}
+.p-ib {
+  width: 20px;
+  height: 4px;
+  border-radius: 5px;
+  background: #1a4341;
+  transform: translate(300px, -260px);
+}
+
+.barra {
+  width: 10px;
+  height: 40px;
+  border-radius: 5px;
+  background: #1a4341;
+  transform: translate(60px, -288px);
+}
